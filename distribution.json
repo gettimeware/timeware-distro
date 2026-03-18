@@ -1,0 +1,1167 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "timeware-1211-1.21.11",
+      "name": "timeware-1211 (Minecraft 1.21.11)",
+      "description": "timeware-1211 Running Minecraft 1.21.11 (Fabric v0.18.4)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.11",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.18.4",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1944518,
+            "MD5": "56c00fa22e0452e8567be1feae73c3b9",
+            "url": "https://gettimeware.github.io/timeware-distro/repo/lib/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.11-fabric-0.18.4",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2850,
+                "MD5": "154831f979ac93591314748f73cde54e",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/versions/1.21.11-fabric-0.18.4/1.21.11-fabric-0.18.4.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.0+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1505269,
+                "MD5": "d27dcb910788a0bd4bea72942a714093",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.11",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 797685,
+                "MD5": "54a87ea75e373bc39b2d36df201231ea",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/net/fabricmc/intermediary/1.21.11/intermediary-1.21.11.jar"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timeware-189-1.8.9",
+      "name": "timeware-189 (Minecraft 1.8.9)",
+      "description": "timeware-189 Running Minecraft 1.8.9 (Forge v11.15.1.2318)",
+      "icon": null,
+      "version": "1.0.1",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.8.9",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.8.9-11.15.1.2318-1.8.9:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 3805686,
+            "MD5": "b97a4c5bc653c957663e7b0de17a3c09",
+            "url": "https://gettimeware.github.io/timeware-distro/repo/lib/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-all:5.0.3@jar",
+              "name": "Minecraft Forge (asm-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 241639,
+                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
+              }
+            },
+            {
+              "id": "jline:jline:2.13@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 248566,
+                "MD5": "f251ba666cccb260ff7215b2cbeee8d4",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/jline/jline/2.13/jline-2.13.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:4.6@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 62477,
+                "MD5": "13560a58a79b46b82057686543e8d727",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://gettimeware.github.io/timeware-distro/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "autosprint.cfg",
+          "name": "autosprint.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1448,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/autosprint.cfg",
+            "MD5": "0ba2302e5267aa0a14871953073978a8",
+            "path": "config/autosprint.cfg"
+          }
+        },
+        {
+          "id": "concheckrmd.cfg",
+          "name": "concheckrmd.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 2928,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/concheckrmd.cfg",
+            "MD5": "f098dc1ea5b3061ec02ce20ed409bb55",
+            "path": "config/concheckrmd.cfg"
+          }
+        },
+        {
+          "id": "customwindowtitle-client.toml",
+          "name": "customwindowtitle-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 50,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/customwindowtitle-client.toml",
+            "MD5": "f8770bea5bc4c81c1c9db9b5b56aee09",
+            "path": "config/customwindowtitle-client.toml"
+          }
+        },
+        {
+          "id": "entityculling.json",
+          "name": "entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 235,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/entityculling.json",
+            "MD5": "48d8cbba4128d4a823e8a188f9a0a557",
+            "path": "config/entityculling.json"
+          }
+        },
+        {
+          "id": "foamfix.cfg",
+          "name": "foamfix.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 984,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/foamfix.cfg",
+            "MD5": "eb27c267ca77c3119de2effeb5240c8c",
+            "path": "config/foamfix.cfg"
+          }
+        },
+        {
+          "id": "forge.cfg",
+          "name": "forge.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3027,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/forge.cfg",
+            "MD5": "c4214ff413a45df989890074db2bccc6",
+            "path": "config/forge.cfg"
+          }
+        },
+        {
+          "id": "forgeChunkLoading.cfg",
+          "name": "forgeChunkLoading.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 2025,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/forgeChunkLoading.cfg",
+            "MD5": "3ca5c1db39ac108e8abeab74450a4f1d",
+            "path": "config/forgeChunkLoading.cfg"
+          }
+        },
+        {
+          "id": "FpsReducer.cfg",
+          "name": "FpsReducer.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 2114,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/FpsReducer/FpsReducer.cfg",
+            "MD5": "917868cb20aaa6de66962d87de360fa0",
+            "path": "config/FpsReducer/FpsReducer.cfg"
+          }
+        },
+        {
+          "id": "bindings.json",
+          "name": "bindings.json",
+          "type": "File",
+          "artifact": {
+            "size": 37,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/macrokey/bindings.json",
+            "MD5": "a99d765cdbfac155ee6ed5a6094e0ff1",
+            "path": "config/macrokey/bindings.json"
+          }
+        },
+        {
+          "id": "macrokey.cfg",
+          "name": "macrokey.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 874,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/macrokey.cfg",
+            "MD5": "7ecafb9bbd45574c4f300b1164ff343f",
+            "path": "config/macrokey.cfg"
+          }
+        },
+        {
+          "id": "ModernKeyBinding.cfg",
+          "name": "ModernKeyBinding.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 158,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/ModernKeyBinding.cfg",
+            "MD5": "9527a733fb97c305957ced63149024a4",
+            "path": "config/ModernKeyBinding.cfg"
+          }
+        },
+        {
+          "id": "patcher.toml",
+          "name": "patcher.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6056,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/patcher.toml",
+            "MD5": "29903cab7f8e764b6d38eb49035a6e6a",
+            "path": "config/patcher.toml"
+          }
+        },
+        {
+          "id": "patcher_sounds.toml",
+          "name": "patcher_sounds.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6641,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/patcher_sounds.toml",
+            "MD5": "1c9aca3f1bd5619a11c018f0b6d14e10",
+            "path": "config/patcher_sounds.toml"
+          }
+        },
+        {
+          "id": "phosphor.json",
+          "name": "phosphor.json",
+          "type": "File",
+          "artifact": {
+            "size": 78,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/phosphor.json",
+            "MD5": "5d5826089784776cc23c62a99d0b53da",
+            "path": "config/phosphor.json"
+          }
+        },
+        {
+          "id": "randompatches.cfg",
+          "name": "randompatches.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 6366,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/randompatches.cfg",
+            "MD5": "98e3c4bb2863f898c1f38238bf8e177f",
+            "path": "config/randompatches.cfg"
+          }
+        },
+        {
+          "id": "resourcify.json",
+          "name": "resourcify.json",
+          "type": "File",
+          "artifact": {
+            "size": 57,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/resourcify.json",
+            "MD5": "6194d8d795099d61a233a2809ca111d4",
+            "path": "config/resourcify.json"
+          }
+        },
+        {
+          "id": "sidebarmod.cfg",
+          "name": "sidebarmod.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 254,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/sidebarmod.cfg",
+            "MD5": "7123a9196349c49f54a96bd5bab0af75",
+            "path": "config/sidebarmod.cfg"
+          }
+        },
+        {
+          "id": "splash.properties",
+          "name": "splash.properties",
+          "type": "File",
+          "artifact": {
+            "size": 346,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/config/splash.properties",
+            "MD5": "e96ea0163a5e07d8b5c22f5e54e2b010",
+            "path": "config/splash.properties"
+          }
+        },
+        {
+          "id": "betternightvision.json",
+          "name": "betternightvision.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/config/betternightvision.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "OneConfig/config/betternightvision.json"
+          }
+        },
+        {
+          "id": "betternightvision.json.corrupted",
+          "name": "betternightvision.json.corrupted",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/config/betternightvision.json.corrupted",
+            "MD5": "c4103f122d27677c9db144cae1394a66",
+            "path": "OneConfig/config/betternightvision.json.corrupted"
+          }
+        },
+        {
+          "id": "chatting.json",
+          "name": "chatting.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/config/chatting.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "OneConfig/config/chatting.json"
+          }
+        },
+        {
+          "id": "chatting.json.corrupted",
+          "name": "chatting.json.corrupted",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/config/chatting.json.corrupted",
+            "MD5": "c4103f122d27677c9db144cae1394a66",
+            "path": "OneConfig/config/chatting.json.corrupted"
+          }
+        },
+        {
+          "id": "crashpatch.json",
+          "name": "crashpatch.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/config/crashpatch.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "OneConfig/config/crashpatch.json"
+          }
+        },
+        {
+          "id": "crashpatch.json.corrupted",
+          "name": "crashpatch.json.corrupted",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/config/crashpatch.json.corrupted",
+            "MD5": "c4103f122d27677c9db144cae1394a66",
+            "path": "OneConfig/config/crashpatch.json.corrupted"
+          }
+        },
+        {
+          "id": "itemcounter.json",
+          "name": "itemcounter.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/config/itemcounter.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "OneConfig/config/itemcounter.json"
+          }
+        },
+        {
+          "id": "overflowanimations.json",
+          "name": "overflowanimations.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/config/overflowanimations.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "OneConfig/config/overflowanimations.json"
+          }
+        },
+        {
+          "id": "overflowparticles.json",
+          "name": "overflowparticles.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/config/overflowparticles.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "OneConfig/config/overflowparticles.json"
+          }
+        },
+        {
+          "id": "patcher.json",
+          "name": "patcher.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/config/patcher.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "OneConfig/config/patcher.json"
+          }
+        },
+        {
+          "id": "config.json",
+          "name": "config.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/config/polycrosshair/config.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "OneConfig/config/polycrosshair/config.json"
+          }
+        },
+        {
+          "id": "polynametag.json",
+          "name": "polynametag.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/config/polynametag.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "OneConfig/config/polynametag.json"
+          }
+        },
+        {
+          "id": "polysprint.json",
+          "name": "polysprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/config/polysprint.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "OneConfig/config/polysprint.json"
+          }
+        },
+        {
+          "id": "OneConfig-Loader.jar",
+          "name": "OneConfig-Loader.jar",
+          "type": "File",
+          "artifact": {
+            "size": 181975,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/launchwrapper/OneConfig-Loader.jar",
+            "MD5": "afc7a1301aa28b183fc627c7a7c2c36f",
+            "path": "OneConfig/launchwrapper/OneConfig-Loader.jar"
+          }
+        },
+        {
+          "id": "OneConfig.json",
+          "name": "OneConfig.json",
+          "type": "File",
+          "artifact": {
+            "size": 845,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/OneConfig.json",
+            "MD5": "8c20a24e3d4d89b2d2a6a88fe81acbe7",
+            "path": "OneConfig/OneConfig.json"
+          }
+        },
+        {
+          "id": "Preferences.json",
+          "name": "Preferences.json",
+          "type": "File",
+          "artifact": {
+            "size": 586,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/Preferences.json",
+            "MD5": "e0e501e15aae2b23851b7ec0331f2e83",
+            "path": "OneConfig/Preferences.json"
+          }
+        },
+        {
+          "id": "actionbar.json",
+          "name": "actionbar.json",
+          "type": "File",
+          "artifact": {
+            "size": 1115,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/actionbar.json",
+            "MD5": "6360a58eebeb94112c697dde421c11a8",
+            "path": "OneConfig/profiles/Default Profile/actionbar.json"
+          }
+        },
+        {
+          "id": "betternightvision.json",
+          "name": "betternightvision.json",
+          "type": "File",
+          "artifact": {
+            "size": 104,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/betternightvision.json",
+            "MD5": "d03b1043dde34cc762dfbe028cc88622",
+            "path": "OneConfig/profiles/Default Profile/betternightvision.json"
+          }
+        },
+        {
+          "id": "betternightvision.json.corrupted",
+          "name": "betternightvision.json.corrupted",
+          "type": "File",
+          "artifact": {
+            "size": 103,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/betternightvision.json.corrupted",
+            "MD5": "213e635dac590095b5681a944a5713a2",
+            "path": "OneConfig/profiles/Default Profile/betternightvision.json.corrupted"
+          }
+        },
+        {
+          "id": "bossbar.json",
+          "name": "bossbar.json",
+          "type": "File",
+          "artifact": {
+            "size": 1213,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/bossbar.json",
+            "MD5": "aa8754c8c64a099de2924c78e26ecd87",
+            "path": "OneConfig/profiles/Default Profile/bossbar.json"
+          }
+        },
+        {
+          "id": "chatshortcuts.json",
+          "name": "chatshortcuts.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/chatshortcuts.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "OneConfig/profiles/Default Profile/chatshortcuts.json"
+          }
+        },
+        {
+          "id": "chattabs.json",
+          "name": "chattabs.json",
+          "type": "File",
+          "artifact": {
+            "size": 11021,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/chattabs.json",
+            "MD5": "18f6d7dfb70dffe5a2a000c0e554dc26",
+            "path": "OneConfig/profiles/Default Profile/chattabs.json"
+          }
+        },
+        {
+          "id": "chatting.json",
+          "name": "chatting.json",
+          "type": "File",
+          "artifact": {
+            "size": 3605,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/chatting.json",
+            "MD5": "b88503d50b47ca85e6b2dc9268786453",
+            "path": "OneConfig/profiles/Default Profile/chatting.json"
+          }
+        },
+        {
+          "id": "chatting.json.corrupted",
+          "name": "chatting.json.corrupted",
+          "type": "File",
+          "artifact": {
+            "size": 1462,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/chatting.json.corrupted",
+            "MD5": "141b3e3b6e054b5e56fa261e56c07a0b",
+            "path": "OneConfig/profiles/Default Profile/chatting.json.corrupted"
+          }
+        },
+        {
+          "id": "crashpatch.json",
+          "name": "crashpatch.json",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/crashpatch.json",
+            "MD5": "9cdb042eae293efbbdf49891cacff649",
+            "path": "OneConfig/profiles/Default Profile/crashpatch.json"
+          }
+        },
+        {
+          "id": "crashpatch.json.corrupted",
+          "name": "crashpatch.json.corrupted",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/crashpatch.json.corrupted",
+            "MD5": "2a5af264f823064d58259632271cd180",
+            "path": "OneConfig/profiles/Default Profile/crashpatch.json.corrupted"
+          }
+        },
+        {
+          "id": "itemcounter.json",
+          "name": "itemcounter.json",
+          "type": "File",
+          "artifact": {
+            "size": 1446,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/itemcounter.json",
+            "MD5": "84821e68ee5b8038784d6aca903b824f",
+            "path": "OneConfig/profiles/Default Profile/itemcounter.json"
+          }
+        },
+        {
+          "id": "itemtooltip.json",
+          "name": "itemtooltip.json",
+          "type": "File",
+          "artifact": {
+            "size": 1136,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/itemtooltip.json",
+            "MD5": "3d18d7f88a33a033174151d83dcaad2b",
+            "path": "OneConfig/profiles/Default Profile/itemtooltip.json"
+          }
+        },
+        {
+          "id": "overflowanimations.json",
+          "name": "overflowanimations.json",
+          "type": "File",
+          "artifact": {
+            "size": 3546,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/overflowanimations.json",
+            "MD5": "53302f096c486ae15cf414870cf38b73",
+            "path": "OneConfig/profiles/Default Profile/overflowanimations.json"
+          }
+        },
+        {
+          "id": "overflowparticles.json",
+          "name": "overflowparticles.json",
+          "type": "File",
+          "artifact": {
+            "size": 12471,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/overflowparticles.json",
+            "MD5": "419284b5c25786972172ec616bfe5cb3",
+            "path": "OneConfig/profiles/Default Profile/overflowparticles.json"
+          }
+        },
+        {
+          "id": "patcher.json",
+          "name": "patcher.json",
+          "type": "File",
+          "artifact": {
+            "size": 7313,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/patcher.json",
+            "MD5": "2b869ab91354e87f60510fa4185cf424",
+            "path": "OneConfig/profiles/Default Profile/patcher.json"
+          }
+        },
+        {
+          "id": "patcher_sounds.json",
+          "name": "patcher_sounds.json",
+          "type": "File",
+          "artifact": {
+            "size": 6651,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/patcher_sounds.json",
+            "MD5": "6f89d415fa13390bfa0c0526ca6368d0",
+            "path": "OneConfig/profiles/Default Profile/patcher_sounds.json"
+          }
+        },
+        {
+          "id": "config.json",
+          "name": "config.json",
+          "type": "File",
+          "artifact": {
+            "size": 1948,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/polycrosshair/config.json",
+            "MD5": "0660980a03334daf05afad0383eae1e5",
+            "path": "OneConfig/profiles/Default Profile/polycrosshair/config.json"
+          }
+        },
+        {
+          "id": "polynametag.json",
+          "name": "polynametag.json",
+          "type": "File",
+          "artifact": {
+            "size": 430,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/polynametag.json",
+            "MD5": "95a75911d28ff0caa8095d122ec350f6",
+            "path": "OneConfig/profiles/Default Profile/polynametag.json"
+          }
+        },
+        {
+          "id": "polysprint.json",
+          "name": "polysprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 1778,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/polysprint.json",
+            "MD5": "8c4a8aa5bb254e5a4dbdf1322d80d611",
+            "path": "OneConfig/profiles/Default Profile/polysprint.json"
+          }
+        },
+        {
+          "id": "scoreboard.json",
+          "name": "scoreboard.json",
+          "type": "File",
+          "artifact": {
+            "size": 1133,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/scoreboard.json",
+            "MD5": "958c77f7c9bb9b137832cce5d3f38b0a",
+            "path": "OneConfig/profiles/Default Profile/scoreboard.json"
+          }
+        },
+        {
+          "id": "title.json",
+          "name": "title.json",
+          "type": "File",
+          "artifact": {
+            "size": 2200,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/title.json",
+            "MD5": "f9d5c5d8d2a631abfd9b964113a1e043",
+            "path": "OneConfig/profiles/Default Profile/title.json"
+          }
+        },
+        {
+          "id": "air.json",
+          "name": "air.json",
+          "type": "File",
+          "artifact": {
+            "size": 397,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/vanilla-hud/air.json",
+            "MD5": "4b294b7227e9f0f07d2b8cbae9795743",
+            "path": "OneConfig/profiles/Default Profile/vanilla-hud/air.json"
+          }
+        },
+        {
+          "id": "armor.json",
+          "name": "armor.json",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/vanilla-hud/armor.json",
+            "MD5": "d267e32c3afaac3cad4bff366d5006e4",
+            "path": "OneConfig/profiles/Default Profile/vanilla-hud/armor.json"
+          }
+        },
+        {
+          "id": "experience.json",
+          "name": "experience.json",
+          "type": "File",
+          "artifact": {
+            "size": 347,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/vanilla-hud/experience.json",
+            "MD5": "052d8362aef2f32fc79740b700e9cb05",
+            "path": "OneConfig/profiles/Default Profile/vanilla-hud/experience.json"
+          }
+        },
+        {
+          "id": "health.json",
+          "name": "health.json",
+          "type": "File",
+          "artifact": {
+            "size": 416,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/vanilla-hud/health.json",
+            "MD5": "509b9aca4d4de52c677008755bf2a95c",
+            "path": "OneConfig/profiles/Default Profile/vanilla-hud/health.json"
+          }
+        },
+        {
+          "id": "hotbar.json",
+          "name": "hotbar.json",
+          "type": "File",
+          "artifact": {
+            "size": 370,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/vanilla-hud/hotbar.json",
+            "MD5": "231c4ce805888eacff721046e4c9a833",
+            "path": "OneConfig/profiles/Default Profile/vanilla-hud/hotbar.json"
+          }
+        },
+        {
+          "id": "hunger.json",
+          "name": "hunger.json",
+          "type": "File",
+          "artifact": {
+            "size": 775,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/vanilla-hud/hunger.json",
+            "MD5": "f637ffd1a011632c1acd195bcaf4460b",
+            "path": "OneConfig/profiles/Default Profile/vanilla-hud/hunger.json"
+          }
+        },
+        {
+          "id": "scrollable-tooltip.json",
+          "name": "scrollable-tooltip.json",
+          "type": "File",
+          "artifact": {
+            "size": 64,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/vanilla-hud/scrollable-tooltip.json",
+            "MD5": "0c82efc35c43b8a1bda6d8b708d6bb8a",
+            "path": "OneConfig/profiles/Default Profile/vanilla-hud/scrollable-tooltip.json"
+          }
+        },
+        {
+          "id": "tab.json",
+          "name": "tab.json",
+          "type": "File",
+          "artifact": {
+            "size": 2030,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/vanilla-hud/tab.json",
+            "MD5": "33488281b8eed5808e7e23a6d47700d3",
+            "path": "OneConfig/profiles/Default Profile/vanilla-hud/tab.json"
+          }
+        },
+        {
+          "id": "vanillahud.json",
+          "name": "vanillahud.json",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/profiles/Default%20Profile/vanillahud.json",
+            "MD5": "35b98574414bd99d4f75140c80c7f33a",
+            "path": "OneConfig/profiles/Default Profile/vanillahud.json"
+          }
+        },
+        {
+          "id": "lwjgl.dll",
+          "name": "lwjgl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 457216,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/temp/3.3.1-SNAPSHOT/lwjgl.dll",
+            "MD5": "78b8212a157e985fa9d9ee9eaab033bd",
+            "path": "OneConfig/temp/3.3.1-SNAPSHOT/lwjgl.dll"
+          }
+        },
+        {
+          "id": "lwjgl_nanovg.dll",
+          "name": "lwjgl_nanovg.dll",
+          "type": "File",
+          "artifact": {
+            "size": 525824,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/temp/3.3.1-SNAPSHOT/lwjgl_nanovg.dll",
+            "MD5": "8ed1b1b5c0ac041b0aca3b860cd3548f",
+            "path": "OneConfig/temp/3.3.1-SNAPSHOT/lwjgl_nanovg.dll"
+          }
+        },
+        {
+          "id": "lwjgl_stb.dll",
+          "name": "lwjgl_stb.dll",
+          "type": "File",
+          "artifact": {
+            "size": 506368,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/OneConfig/temp/3.3.1-SNAPSHOT/lwjgl_stb.dll",
+            "MD5": "35f687888e5ed8a9ff8fadff369a91b6",
+            "path": "OneConfig/temp/3.3.1-SNAPSHOT/lwjgl_stb.dll"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2697,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/options.txt",
+            "MD5": "1c82a6b461724dc049d041fc4d398e38",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "optionsof.txt",
+          "name": "optionsof.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1444,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/optionsof.txt",
+            "MD5": "1777c141584cb2444583ffecbb9d6fdc",
+            "path": "optionsof.txt"
+          }
+        },
+        {
+          "id": "Daggers-1.1.0+1.6.1-1.12.2.zip",
+          "name": "Daggers-1.1.0+1.6.1-1.12.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3984,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/resourcepacks/Daggers-1.1.0+1.6.1-1.12.2.zip",
+            "MD5": "09331b7365980b4ec1acf7bfdb35912d",
+            "path": "resourcepacks/Daggers-1.1.0+1.6.1-1.12.2.zip"
+          }
+        },
+        {
+          "id": "LowOnFire_1.8.9.zip",
+          "name": "LowOnFire_1.8.9.zip",
+          "type": "File",
+          "artifact": {
+            "size": 36601,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/resourcepacks/LowOnFire_1.8.9.zip",
+            "MD5": "4b123cc9916113150e2a0829ad59f30b",
+            "path": "resourcepacks/LowOnFire_1.8.9.zip"
+          }
+        },
+        {
+          "id": "MaxFPSPack.zip",
+          "name": "MaxFPSPack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 192290,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/resourcepacks/MaxFPSPack.zip",
+            "MD5": "74e65f0cc90ada24a6b39cc66457ded0",
+            "path": "resourcepacks/MaxFPSPack.zip"
+          }
+        },
+        {
+          "id": "NoCaveAmbience 1.6.1~1.8.9.zip",
+          "name": "NoCaveAmbience 1.6.1~1.8.9.zip",
+          "type": "File",
+          "artifact": {
+            "size": 101311,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/resourcepacks/NoCaveAmbience%201.6.1~1.8.9.zip",
+            "MD5": "80f515a941c4c91c2a1906f6681b31c3",
+            "path": "resourcepacks/NoCaveAmbience 1.6.1~1.8.9.zip"
+          }
+        },
+        {
+          "id": "ReimaginedGUI 1.8.9.zip",
+          "name": "ReimaginedGUI 1.8.9.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1162940,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/resourcepacks/ReimaginedGUI%201.8.9.zip",
+            "MD5": "28fe600f9d2b35bf7f7bd95a48354173",
+            "path": "resourcepacks/ReimaginedGUI 1.8.9.zip"
+          }
+        },
+        {
+          "id": "§e§lBig §4§oLoot §r§11.8.9.zip",
+          "name": "§e§lBig §4§oLoot §r§11.8.9.zip",
+          "type": "File",
+          "artifact": {
+            "size": 53098,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/resourcepacks/%C2%A7e%C2%A7lBig%20%C2%A74%C2%A7oLoot%20%C2%A7r%C2%A711.8.9.zip",
+            "MD5": "c73f5dbfe5524fc7ef5d8b88bbad6a6a",
+            "path": "resourcepacks/§e§lBig §4§oLoot §r§11.8.9.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 32521,
+            "url": "https://gettimeware.github.io/timeware-distro/servers/timeware-189-1.8.9/files/servers.dat",
+            "MD5": "1ff81b307fb09c65cf35f770bf1be2df",
+            "path": "servers.dat"
+          }
+        }
+      ]
+    }
+  ]
+}

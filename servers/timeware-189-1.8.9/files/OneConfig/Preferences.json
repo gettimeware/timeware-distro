@@ -1,0 +1,27 @@
+{
+  "oneConfigKeyBind": {
+    "keyBinds": [
+      54
+    ]
+  },
+  "enableBlur": false,
+  "enableCustomScale": true,
+  "customScale": 1.1152344,
+  "openingBehavior": 0,
+  "showPageAnimationOnOpen": true,
+  "timeUntilReset": 15,
+  "searchDistance": 2,
+  "guiOpenAnimation": true,
+  "guiClosingAnimation": true,
+  "animationTime": 0.6,
+  "animationType": 0,
+  "showPageAnimations": true,
+  "pageAnimationDuration": 0.3,
+  "toggleSwitchBounce": true,
+  "trackerResponseDuration": 60.0,
+  "updateChannel": 1,
+  "DEBUG": false,
+  "firstLaunch": false,
+  "enabled": true,
+  "canToggle": true
+}

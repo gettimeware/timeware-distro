@@ -1,0 +1,88 @@
+{
+  "toggleSprint": true,
+  "toggleSneak": true,
+  "disableWTapSprint": true,
+  "toggleSprintState": true,
+  "toggleSneakState": false,
+  "keybindToggleSprint": true,
+  "keybindToggleSprintKey": {
+    "keyBinds": [
+      19
+    ]
+  },
+  "keybindToggleSneak": true,
+  "keybindToggleSneakKey": {
+    "keyBinds": [
+      33
+    ]
+  },
+  "toggleFlyBoost": false,
+  "flyBoostAmount": 4.0,
+  "hud": {
+    "brackets": false,
+    "descendingHeld": "Descending (key held)",
+    "descendingToggled": "Descending (toggled)",
+    "descending": "Descending (vanilla)",
+    "flying": "Flying",
+    "flyBoostText": "x boost",
+    "riding": "Riding",
+    "sneakHeld": "Sneaking (key held)",
+    "sneakToggle": "Sneaking",
+    "sneak": "Sneaking (F To Toggle)",
+    "sprintHeld": "Sprinting (key held)",
+    "sprintToggle": "Sprinting",
+    "sprint": "Sprinting (R To Toggle)",
+    "color": {
+      "hsba": [
+        0,
+        0,
+        100,
+        255
+      ],
+      "dataBit": -1
+    },
+    "textType": 0,
+    "background": false,
+    "rounded": true,
+    "border": false,
+    "bgColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        119
+      ],
+      "dataBit": -1
+    },
+    "borderColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "dataBit": -1
+    },
+    "cornerRadius": 3.984375,
+    "borderSize": 2.0,
+    "defaultPaddingX": 5.0,
+    "paddingX": 0.859375,
+    "defaultPaddingY": 5.0,
+    "paddingY": 4.0429688,
+    "enabled": true,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 9.9140625
+    },
+    "scale": 1.0355388,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "enabled": true,
+  "canToggle": true
+}

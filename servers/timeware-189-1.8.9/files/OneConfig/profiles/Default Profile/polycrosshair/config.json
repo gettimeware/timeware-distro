@@ -1,0 +1,90 @@
+{
+  "mode": true,
+  "newCrosshairs": [
+    {
+      "img": "iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAGUlEQVR42mNgGH7gPxAMd83/iQCjATYkAQAXJEO9Ljp2dQAAAABJRU5ErkJggg\u003d\u003d",
+      "scale": 100,
+      "rotation": 0,
+      "offsetX": 0,
+      "offsetY": 0,
+      "centered": false
+    },
+    {
+      "img": "iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAHklEQVR42mNgGH7gPxAMQc0k2wQDyDaji4+G9pADAJoJM827QMwQAAAAAElFTkSuQmCC",
+      "scale": 100,
+      "rotation": 0,
+      "offsetX": 0,
+      "offsetY": 0,
+      "centered": false
+    },
+    {
+      "img": "iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAALUlEQVR42mNgGH7gPxCQrQEXmygD0Gna+hEG0G1GFqd9KJPsZ4pDm2wNQwMAAJQwU62XFHC0AAAAAElFTkSuQmCC",
+      "scale": 100,
+      "rotation": 0,
+      "offsetX": 0,
+      "offsetY": 0,
+      "centered": false
+    }
+  ],
+  "penColor": {
+    "hsba": [
+      0,
+      0,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "mirror": 3,
+  "canvaSize": 15,
+  "newCurrentCrosshair": {
+    "img": "iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAALUlEQVR42mNgGH7gPxCQrQEXmygD0Gna+hEG0G1GFqd9KJPsZ4pDm2wNQwMAAJQwU62XFHC0AAAAAElFTkSuQmCC",
+    "scale": 100,
+    "rotation": 0,
+    "offsetX": 0,
+    "offsetY": 0,
+    "centered": false
+  },
+  "renderConfig": {
+    "dynamicColor": true,
+    "invertColor": false,
+    "dynamicOpacity": 100,
+    "hostile": true,
+    "hostileColor": {
+      "hsba": [
+        0,
+        83,
+        100,
+        255
+      ],
+      "dataBit": -1
+    },
+    "passive": false,
+    "passiveColor": {
+      "hsba": [
+        0,
+        0,
+        100,
+        255
+      ],
+      "dataBit": -1
+    },
+    "player": true,
+    "playerColor": {
+      "hsba": [
+        0,
+        83,
+        100,
+        255
+      ],
+      "dataBit": -1
+    },
+    "showInDebug": false,
+    "showInGuis": false,
+    "showInThirdPerson": true,
+    "showInSpectator": false,
+    "didPatcherMigration": true
+  },
+  "enabled": true,
+  "canToggle": true
+}
